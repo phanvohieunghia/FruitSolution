@@ -13,5 +13,7 @@ namespace FruitSolution.Data.Entities
         public int ViewCount { get; set; }
         public DateTime DateCreated { get; set; }
         public string SeoAlias { get; set; }
+
+        public List<ProductInCategory> ProductInCategories { get; set; }
     }
 }
